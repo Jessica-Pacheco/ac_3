@@ -3,7 +3,7 @@ from flask import Flask, request
 app = Flask(__name__)
 
 @app.route('/')
-def nao_entre_em_panico():
+def numerosprimos():
     qtdTotal = 100
     primos = "1,2,"
     candPrimo = 3
